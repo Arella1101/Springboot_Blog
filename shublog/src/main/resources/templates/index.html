@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="_fragments :: head(~{::title})">
+  <meta charset="UTF-8">
+  <title>Guan's blog </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css" >
+  <link rel="stylesheet" href="../static/css/homepage.css" >
+</head>
+
+<body id="home">
+<div class="ui inverted masthead center aligned segment">
+  <div class="ui content container">
+    <br>
+    <h1 class="ui inverted header">Welcome to Guan's blog</h1>
+    <h3 >
+      It's a site where I record and share what I learn. Keep moving forward every day.
+    </h3>
+    <br>
+    <br>
+
+    <a href="#"  th:href="@{/home}">
+      <div class="ui large button">Read more</div>
+    </a>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="ui centered image m-mobile-hide">
+      <img class="rounded" src="../static/images/home2.jpg" th:src="@{/images/home2.jpg}"/>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>

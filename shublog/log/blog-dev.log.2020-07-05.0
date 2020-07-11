@@ -1,0 +1,155 @@
+2020-07-05 11:51:43.137  INFO 52424 --- [restartedMain] com.gsw.shublog.ShublogApplication       : Starting ShublogApplication on DESKTOP-B2LP1MV with PID 52424 (C:\Users\Shuwen\IdeaProjects\shublog\target\classes started by Shuwen in C:\Users\Shuwen\IdeaProjects\shublog)
+2020-07-05 11:51:43.141 DEBUG 52424 --- [restartedMain] com.gsw.shublog.ShublogApplication       : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-05 11:51:43.142  INFO 52424 --- [restartedMain] com.gsw.shublog.ShublogApplication       : The following profiles are active: dev
+2020-07-05 11:51:43.188  INFO 52424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-05 11:51:43.188  INFO 52424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-05 11:51:43.913  INFO 52424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-05 11:51:44.015  INFO 52424 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94ms. Found 5 JPA repository interfaces.
+2020-07-05 11:51:44.936  INFO 52424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-05 11:51:44.944  INFO 52424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-05 11:51:44.945  INFO 52424 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-05 11:51:45.105  INFO 52424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-05 11:51:45.105  INFO 52424 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1917 ms
+2020-07-05 11:51:45.244  INFO 52424 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-05 11:51:45.294  INFO 52424 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-05 11:51:45.335  INFO 52424 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-05 11:51:45.448  INFO 52424 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-05 11:51:45.460  WARN 52424 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-05 11:51:45.533  INFO 52424 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-05 11:51:45.536  WARN 52424 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-05 11:51:45.767  INFO 52424 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-05 11:51:45.813  INFO 52424 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-05 11:51:45.830  INFO 52424 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-05 11:51:46.234  INFO 52424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-05 11:51:46.565  INFO 52424 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-05 11:51:46.571  INFO 52424 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-05 11:51:46.608  INFO 52424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-05 11:51:46.609  INFO 52424 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-05 11:51:47.178  INFO 52424 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-05 11:51:47.186  INFO 52424 --- [restartedMain] com.gsw.shublog.ShublogApplication       : Started ShublogApplication in 4.486 seconds (JVM running for 5.807)
+2020-07-05 11:52:13.496  INFO 52424 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-05 11:52:13.496  INFO 52424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-05 11:52:13.511  INFO 52424 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-07-05 11:52:13.535  INFO 52424 --- [http-nio-8080-exec-1] com.gsw.shublog.aspect.LogAspect         : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.gsw.shublog.web.IndexController.index', args=[]}
+2020-07-05 11:52:13.539  INFO 52424 --- [http-nio-8080-exec-1] com.gsw.shublog.aspect.LogAspect         : Result : index
+2020-07-05 11:52:16.774  INFO 52424 --- [http-nio-8080-exec-7] com.gsw.shublog.aspect.LogAspect         : Request : {url='http://localhost:8080/home', ip='127.0.0.1', classMethod='com.gsw.shublog.web.HomeController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-07-05 11:52:16.890  WARN 52424 --- [http-nio-8080-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-07-05 11:52:16.910  WARN 52424 --- [http-nio-8080-exec-7] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-07-05 11:52:16.917  INFO 52424 --- [http-nio-8080-exec-7] com.gsw.shublog.aspect.LogAspect         : Result : home
+2020-07-05 11:52:26.690  INFO 52424 --- [http-nio-8080-exec-3] com.gsw.shublog.aspect.LogAspect         : Request : {url='http://localhost:8080/types/-1', ip='127.0.0.1', classMethod='com.gsw.shublog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-07-05 11:52:26.706  INFO 52424 --- [http-nio-8080-exec-3] com.gsw.shublog.aspect.LogAspect         : Result : types
+2020-07-05 11:52:26.827 ERROR 52424 --- [http-nio-8080-exec-8] c.g.s.h.ControllerExceptionHandler       : Requst URL : http://localhost:8080/types/ddd，Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "ddd"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+Caused by: java.lang.NumberFormatException: For input string: "ddd"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:68)
+	at java.base/java.lang.Long.parseLong(Long.java:699)
+	at java.base/java.lang.Long.valueOf(Long.java:1151)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2020-07-05 11:52:26.832  WARN 52424 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "ddd"]
+2020-07-05 11:52:29.827  INFO 52424 --- [http-nio-8080-exec-1] com.gsw.shublog.aspect.LogAspect         : Request : {url='http://localhost:8080/tags/-1', ip='127.0.0.1', classMethod='com.gsw.shublog.web.TagShowController.tags', args=[Page request [number: 0, size 8, sort: updateTime: DESC], -1, {}]}
+2020-07-05 11:52:29.844  INFO 52424 --- [http-nio-8080-exec-1] com.gsw.shublog.aspect.LogAspect         : Result : tags
+2020-07-05 11:52:32.753  INFO 52424 --- [http-nio-8080-exec-8] com.gsw.shublog.aspect.LogAspect         : Request : {url='http://localhost:8080/archives', ip='127.0.0.1', classMethod='com.gsw.shublog.web.ArchiveShowController.archives', args=[{}]}
+2020-07-05 11:52:32.776  INFO 52424 --- [http-nio-8080-exec-8] com.gsw.shublog.aspect.LogAspect         : Result : archives
+2020-07-05 11:52:37.148  INFO 52424 --- [http-nio-8080-exec-9] com.gsw.shublog.aspect.LogAspect         : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.gsw.shublog.web.IndexController.index', args=[]}
+2020-07-05 11:52:37.148  INFO 52424 --- [http-nio-8080-exec-9] com.gsw.shublog.aspect.LogAspect         : Result : index
+2020-07-05 12:06:00.886  INFO 65792 --- [restartedMain] com.gsw.shublog.ShublogApplication       : Starting ShublogApplication on DESKTOP-B2LP1MV with PID 65792 (C:\Users\Shuwen\IdeaProjects\shublog\target\classes started by Shuwen in C:\Users\Shuwen\IdeaProjects\shublog)
+2020-07-05 12:06:00.891 DEBUG 65792 --- [restartedMain] com.gsw.shublog.ShublogApplication       : Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-07-05 12:06:00.891  INFO 65792 --- [restartedMain] com.gsw.shublog.ShublogApplication       : The following profiles are active: dev
+2020-07-05 12:06:00.954  INFO 65792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-07-05 12:06:00.954  INFO 65792 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-07-05 12:06:01.933  INFO 65792 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-07-05 12:06:02.069  INFO 65792 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126ms. Found 5 JPA repository interfaces.
+2020-07-05 12:06:02.923  INFO 65792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-07-05 12:06:02.932  INFO 65792 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-07-05 12:06:02.932  INFO 65792 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-07-05 12:06:03.117  INFO 65792 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-07-05 12:06:03.118  INFO 65792 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2163 ms
+2020-07-05 12:06:03.278  INFO 65792 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-07-05 12:06:03.332  INFO 65792 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-07-05 12:06:03.386  INFO 65792 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.17.Final
+2020-07-05 12:06:03.502  INFO 65792 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-07-05 12:06:03.506  WARN 65792 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-07-05 12:06:03.621  INFO 65792 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-07-05 12:06:03.625  WARN 65792 --- [task-1] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-07-05 12:06:03.923  INFO 65792 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-07-05 12:06:03.967  INFO 65792 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-07-05 12:06:03.987  INFO 65792 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-07-05 12:06:04.514  INFO 65792 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-07-05 12:06:04.912  INFO 65792 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-07-05 12:06:04.921  INFO 65792 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-07-05 12:06:04.978  INFO 65792 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-07-05 12:06:04.980  INFO 65792 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-07-05 12:06:05.588  INFO 65792 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-07-05 12:06:05.597  INFO 65792 --- [restartedMain] com.gsw.shublog.ShublogApplication       : Started ShublogApplication in 5.488 seconds (JVM running for 7.408)
+2020-07-05 12:06:12.851  INFO 65792 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-07-05 12:06:12.851  INFO 65792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-07-05 12:06:12.866  INFO 65792 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2020-07-05 12:06:12.887  INFO 65792 --- [http-nio-8080-exec-1] com.gsw.shublog.aspect.LogAspect         : Request : {url='http://localhost:8080/', ip='127.0.0.1', classMethod='com.gsw.shublog.web.IndexController.index', args=[]}
+2020-07-05 12:06:12.891  INFO 65792 --- [http-nio-8080-exec-1] com.gsw.shublog.aspect.LogAspect         : Result : index
+2020-07-05 12:06:15.124  INFO 65792 --- [http-nio-8080-exec-9] com.gsw.shublog.aspect.LogAspect         : Request : {url='http://localhost:8080/home', ip='127.0.0.1', classMethod='com.gsw.shublog.web.HomeController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-07-05 12:06:15.204  WARN 65792 --- [http-nio-8080-exec-9] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-07-05 12:06:15.229  WARN 65792 --- [http-nio-8080-exec-9] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-07-05 12:06:15.235  INFO 65792 --- [http-nio-8080-exec-9] com.gsw.shublog.aspect.LogAspect         : Result : home
+2020-07-05 17:05:28.284  WARN 65792 --- [http-nio-8080-exec-2] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [363] milliseconds.
+2020-07-05 17:06:03.418  WARN 65792 --- [http-nio-8080-exec-9] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2020-07-05 17:06:15.787  WARN 65792 --- [http-nio-8080-exec-8] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
+2020-07-05 17:06:31.001  WARN 65792 --- [http-nio-8080-exec-2] o.springframework.validation.DataBinder  : Skipping URI variable 'id' because request contains bind value with same name.
