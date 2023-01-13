@@ -1,6 +1,6 @@
 # Blog_springboot
 
-This is a personal blog website based on spring boot. I have launched it online. The website is: https://guan_place.com/. (temprarily inaccessible) The front-end is implemented using HTML and Semantic UI. Some pages are shown below:
+This is a personal blog website based on spring boot. I have launched it online. The website is: https://guan_place.com/. (temporarily inaccessible, is working on the domain stuff) The front-end is implemented using HTML and Semantic UI. Some pages are shown below:
 
 Home page
 ![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/%E5%8D%9A%E5%AE%A2%E9%A6%96%E9%A1%B5.png)
