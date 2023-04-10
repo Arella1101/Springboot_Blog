@@ -1,27 +1,31 @@
-# Blog_springboot
+# Personal_Blog_Platform
 
-This is a personal blog website based on spring boot. I have launched it online. The website is: https://guan_place.com/. (temporarily inaccessible, is working on the domain stuff) The front-end is implemented using HTML and Semantic UI. Some pages are shown below:
+A blog platform for posting articles, leaving comments and managing blog posting. The platform comprises two websites: one exclusively for administrators to manage the blog, and the other for the public to read it. The system enables various functions such as blog posting, deletion, comment management, and keyword-based article search.
+
+The frontend is built with HTML, CSS, Bootstrap and Semantic UI components. The backend is 
+implemented in Java Spring Boot(MVC) structure, with Mysql database. The website and backend server are deployed with 
+Docker and Nginx tools on Centos(Linux) AWS Cloud instance server(EC2).
 
 Home page
-![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/%E5%8D%9A%E5%AE%A2%E9%A6%96%E9%A1%B5.png)
+![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/home.png)
 
 Archive page：
-![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/%E5%8D%9A%E5%AE%A2%E5%BD%92%E6%A1%A3.png)
+![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/archive.png)
 
 Blogs searched by tages：
-![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/%E6%A0%87%E7%AD%BE.png)
+![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/blogSearch.png)
 
 Blog details and remarks
-![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/%E5%8D%9A%E5%AE%A2%E6%AD%A3%E6%96%87%E8%AF%84%E8%AE%BA.png)
+![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/comment.png)
 
 Blog administration platform log in：
-![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/%E5%90%8E%E5%A4%A9%E7%AE%A1%E7%90%86%E9%A6%96%E9%A1%B5.png)
+![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/login.png)
 
 Blog management pages:
-![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/%E5%90%8E%E5%8F%B0%E5%8D%9A%E5%AE%A2%E7%AE%A1%E7%90%86.png)
+![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/blogManagement.png)
 
 
-![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/%E5%90%8E%E5%8F%B0%E5%88%86%E7%B1%BB%E7%AE%A1%E7%90%86.png)
+![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/blogAdminCategory.png)
 
 Blog posting page:
-![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/%E5%90%8E%E5%8F%B0%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83.png)
+![Alt text](https://github.com/Arella1101/Blog_springboot/blob/master/demo/blogPosting.png)

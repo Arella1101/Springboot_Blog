@@ -12,7 +12,7 @@ public class Type {
     @Id
     @GeneratedValue
     private Long id;
-    @NotBlank(message = "分类名称不能为空")
+    @NotBlank(message = "Category name can't be null.")
     private String name;
 
     @OneToMany(mappedBy = "type")
